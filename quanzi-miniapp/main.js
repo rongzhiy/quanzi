@@ -13,7 +13,7 @@ import store from './store'
 Vue.prototype.$store=store   //引入vuex
  
 Vue.prototype.baseUrl="http://localhost:7777/citylife" //后端请求接口
-Vue.prototype.appid="wx7e724d541e6e0878"  //小程序appid
+Vue.prototype.appid=""  //小程序appid
 
 Vue.config.productionTip = false //阻止显示生产模式的消息
 
