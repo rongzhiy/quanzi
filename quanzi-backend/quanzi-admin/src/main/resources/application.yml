@@ -137,8 +137,8 @@ wx:
 ##阿里云OSS配置
 #aliyun:
 #  bucketName: "yundaquanzi"
-#  accessKeyId: "LTAI4GG3wMXomWXCaEp6PBxk"
-#  accessKeySecret: "iVnDpizLBfarhS1XG1rMOq3FG3UEfH"
+#  accessKeyId: ""
+#  accessKeySecret: ""
 #  #OSS对应的区域
 #  endpoint: "https://oss-cn-beijing.aliyuncs.com"
-#  filehost: "images"    哈哈哈
+#  filehost: "images"    
