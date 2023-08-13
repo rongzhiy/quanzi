@@ -1,0 +1,6 @@
+	.left-window-index-width{
+		width: 375px!important;
+	}
+	.right-window-chat-width{
+		width: calc(100vw - 375px)!important;
+	}

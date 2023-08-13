@@ -1,0 +1,329 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "内容详情"
+			}
+		},
+		{
+			"path": "pages/news/reply",
+			"style": {
+				"navigationBarTitleText": "评论的评论详情"
+			}
+		},
+		{
+			"path": "pages/news/components/list",
+			"style": {
+				// "navigationBarTitleText": "主页问答列表"
+			}
+		},
+		{
+			"path": "pages/news/components/mescroll-item",
+			"style": {
+				// "navigationBarTitleText": "滚动项目"
+			}
+		},
+		{
+			"path": "pages/news/components/mescroll-uni-item",
+			"style": {
+				// "navigationBarTitleText": "滚动项目"
+			}
+		},
+		{
+			"path": "pages/news/bookdetail",
+			"style": {
+				"navigationBarTitleText": "百科详情页"
+			}
+		},
+		
+		
+		
+		// 上面是新增测试的
+		{
+			"path": "pages/tabbar/index/index",
+			"style": { 
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabbar/class/class",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/tabbar/release/release",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/tabbar/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{ 
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/release/release-news/release-news",
+			"style": {
+				"navigationBarTitleText": "发图文"
+			}
+		},
+		{
+			"path": "pages/release/release-video/release-video",
+			"style": {
+				"navigationBarTitleText": "发视频"
+			}
+		},
+		{
+			"path": "pages/release/release-qa/release-qa",
+			"style": {
+				"navigationBarTitleText": "提问"
+			}
+		}
+        ,{
+            "path" : "pages/tabbar/mine/coupon/coupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "优惠券",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/index/rankList/rankList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "排行榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "浏览历史",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/tabbar/index/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "测试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/code/code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "验证码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/info/editInfo/editInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/class/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "测试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "富文本解析",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/release/LevineHua-editor/LevineHua-editor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/Dd-DouYin/Dd-DouYin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抖音",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/mine/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/tabbar/message/msg/msg",
+            "style" :                                                                                     
+            {
+                "navigationBarTitleText": "消息列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/message/chat/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "聊天",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		 // "navigationBarBackgroundColor": "#0081ff",
+		 // "navigationBarTitleText": "ColorUi for UniApp",
+		 // "navigationStyle": "custom",
+		 // "navigationBarTextStyle": "white"
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor":"#ffffff",	
+		"color": "#cdcdcd",
+		"selectedColor": "#0fb2ea",
+		"borderStyle":"white",
+		"list": [{
+				"pagePath": "pages/news/news",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/selected_home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/class/class",
+				"iconPath": "static/img/tabbar/class.png",
+				"selectedIconPath": "static/img/tabbar/selected_class.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabbar/release/release",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/selected_add.png",
+				"text": "发布"
+			},
+
+			{
+				"pagePath": "pages/tabbar/message/message",
+				"iconPath": "./static/img/tabbar/message.png",
+				"selectedIconPath": "static/img/tabbar/selected_message.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/selected_me.png",
+				"text": "我的"
+			}
+		]
+	}
+}
